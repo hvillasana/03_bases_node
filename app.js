@@ -15,6 +15,7 @@ switch (comando) {
         crearArchivo(argv.base,argv.limite)
             .then( archivo => console.log(`Archivo creado`.red))
             .catch(err => console.log(err))
+            
         break;
 
     default:
